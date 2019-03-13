@@ -1,5 +1,6 @@
 .App {
   background-color: var(--bggray);
+  height: 100vh;
 }
 
 
@@ -60,6 +61,13 @@ hr {
   align-items: center;
 }
 
+.flex-row-space-evenly {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .block {
   width: 80%;
   /* width: 90%; */
@@ -72,6 +80,25 @@ hr {
   width: 8rem;
 }
 
+.center{
+  text-align: center;
+}
+.form {
+  padding-top: 3rem;
+  flex-wrap: wrap;
+}
+.search {
+  width: 40%;
+}
+.btn {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.red {
+  color: rgb(206, 23, 23);
+  font-size: 2rem;
+}
 /* ==================================== */
 
 
@@ -90,14 +117,18 @@ hr {
   
 }
 
-.app-container__location {
+/* .app-container__location {
   margin: 0;
   margin-top: .5rem;
-}
+} */
 
 
 /* ============== Now ============== */
 
+
+.now__location {
+  text-transform: capitalize;
+}
 
 .now__icon {
   /* background-color: blue; */
