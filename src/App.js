@@ -10,7 +10,7 @@ import DailyWeather from './components/DailyWeather';
 // import HourlyWeather from './components/HourlyWeather';
 import Search from './components/Search';
 
-const API_KEY = "ea70246fb0d2f4bb2ad58b4e88390364"
+const API_KEY = ""
 
 class App extends Component {
 
